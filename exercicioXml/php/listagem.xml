@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alunos>
+	<aluno versao="1.0">
+		<id>1</id>
+		<nome>Raphael</nome>
+		<email>raphael@moryta.com</email>
+		<telefone>654645-65456</telefone>
+	</aluno>
+<aluno><id>3</id><nome>raphael2 teste</nome><email>asdas</email><telefone>asdasdsd</telefone></aluno><aluno><id>5</id><nome>ssssdsd</nome><email>123</email><telefone>@@@</telefone></aluno></alunos>
