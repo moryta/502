@@ -1,0 +1,8 @@
+#!/bin/sh
+
+x="Some\nstring"
+
+echo $x | read -r id array
+
+#IFS=: read -ra array <<<"$x"
+#IFS="\n" read -r id array <<< "$x"
