@@ -27,3 +27,18 @@ echo '<hr>';
 $string = 'JAVA e a linguagem mais legal';
 echo preg_replace('/JAVA/','PHP',$string);
 echo '<hr>';
+
+$array = array(
+    'PHP',
+    'JAVA',
+    'RUBY',
+    'PHPsdssss'
+);
+
+$retorno = preg_grep('/PHP/',$array);
+print_r($retorno);
+echo '<hr>';
+
+$linguagens = "PHP, JAVA, RUBY";
+echo '<pre>';
+var_dump(preg_split('/[, ]+/',$linguagens));
